@@ -32,7 +32,7 @@ print("no.of times a appeared is: ",count)
 word=input("Enter the string: ")
 count=0
 for ch in word:
-    if ch in word.upper():
+    if ch.isupper():
         count=count+1
 print("count of uppercase letters: ",count)
 '''
